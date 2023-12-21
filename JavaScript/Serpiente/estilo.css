@@ -1,0 +1,52 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#tablerojuego, .ui{
+    max-width: 500px;
+}
+#tableroJuego{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+
+}
+#start, .ui{
+    font-size: 25px;
+
+}
+#gameOver{
+    display: none;
+}
+.ui{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+#start{
+    background-color: green;
+    border: none;
+    color: white;
+    
+}
+button{
+    padding: auto;
+}
+#puntuacion{
+    display: inline-flex;
+}
+.cuadrado{
+    aspect-ratio: 1;
+
+}
+.vacio{
+    background-color: rgb(114, 114, 114);
+}
+.serpiente{
+    background-color: green;
+}
+.comida{
+    background-color: red;
+}
+button:hover{
+    transform: scale(1.06);
+}
